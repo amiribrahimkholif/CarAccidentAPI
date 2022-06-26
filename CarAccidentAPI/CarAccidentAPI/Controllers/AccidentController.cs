@@ -45,7 +45,7 @@ namespace CarAccidentAPI.Controllers
 
         // POST api/<AccidentController>
         [HttpPost]
-        public void CreatAccident([FromBody] Accident model)
+        public void CreateAccident([FromBody] Accident model)
         {
             if(model is not null)
             {
